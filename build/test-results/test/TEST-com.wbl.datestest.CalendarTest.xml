@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.wbl.datestest.CalendarTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-06-26T17:02:24" hostname="Kranthis-Air" time="0.047">
+  <properties/>
+  <testcase name="testOverlappingPeriodsRejected" classname="com.wbl.datestest.CalendarTest" time="0.024"/>
+  <testcase name="testNowNearEndOfPeriodFails" classname="com.wbl.datestest.CalendarTest" time="0.002"/>
+  <testcase name="testNowNearEndOfPeriodSucceeds" classname="com.wbl.datestest.CalendarTest" time="0.003"/>
+  <testcase name="testNoTasksNoPeriods" classname="com.wbl.datestest.CalendarTest" time="0.001"/>
+  <testcase name="testAllocateOneTaskSuccess" classname="com.wbl.datestest.CalendarTest" time="0.003"/>
+  <testcase name="testAllocateWorkPeriodsInPast" classname="com.wbl.datestest.CalendarTest" time="0.0"/>
+  <testcase name="testAllocateTwoPeriodsSuccess" classname="com.wbl.datestest.CalendarTest" time="0.0"/>
+  <testcase name="testAllocateNoWorkPeriods" classname="com.wbl.datestest.CalendarTest" time="0.001"/>
+  <testcase name="testAllocateOneTaskFailure" classname="com.wbl.datestest.CalendarTest" time="0.001"/>
+  <testcase name="testAllocateTwoPeriodsFailure" classname="com.wbl.datestest.CalendarTest" time="0.001"/>
+  <testcase name="testAllocateTwoTasksSuccess" classname="com.wbl.datestest.CalendarTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

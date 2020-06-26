@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.wbl.datestest.WorkPeriodTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-06-26T17:02:24" hostname="Kranthis-Air" time="0.094">
+  <properties/>
+  <testcase name="testSplitWithTaskPartBoundaryNotOnSplit" classname="com.wbl.datestest.WorkPeriodTest" time="0.078"/>
+  <testcase name="testSplitOnStartTime" classname="com.wbl.datestest.WorkPeriodTest" time="0.0"/>
+  <testcase name="testSplitWithTaskPartBoundaryOnSplit" classname="com.wbl.datestest.WorkPeriodTest" time="0.0"/>
+  <testcase name="testSplitOnEndTime" classname="com.wbl.datestest.WorkPeriodTest" time="0.0"/>
+  <testcase name="testSplitTwoDayPeriod" classname="com.wbl.datestest.WorkPeriodTest" time="0.0"/>
+  <testcase name="testSplitWithSingleTaskPart" classname="com.wbl.datestest.WorkPeriodTest" time="0.0"/>
+  <testcase name="startMidnightMoreThan24Hours" classname="com.wbl.datestest.WorkPeriodTest" time="0.009"/>
+  <testcase name="basicSplitTest" classname="com.wbl.datestest.WorkPeriodTest" time="0.0"/>
+  <testcase name="testOverLongPeriodRejected" classname="com.wbl.datestest.WorkPeriodTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

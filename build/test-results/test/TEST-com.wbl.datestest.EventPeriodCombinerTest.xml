@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.wbl.datestest.EventPeriodCombinerTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-06-26T17:02:24" hostname="Kranthis-Air" time="0.022">
+  <properties/>
+  <testcase name="testSimultaneousEndPeriodLonger" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.008"/>
+  <testcase name="testSimpleOverlapEventFirst" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.001"/>
+  <testcase name="testAbuttingEventFirst" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.0"/>
+  <testcase name="testAbuttingPeriodFirst" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.0"/>
+  <testcase name="testEventSurroundsPeriod" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.0"/>
+  <testcase name="testSimultaneousEndEventLonger" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.001"/>
+  <testcase name="testSingleWorkPeriod" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.0"/>
+  <testcase name="testSimultaneousStartEventLonger" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.0"/>
+  <testcase name="testSimpleOverlapPeriodFirst" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.0"/>
+  <testcase name="testPeriodSurroundsEvent" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.0"/>
+  <testcase name="testNoOverlapPeriodFirst" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.001"/>
+  <testcase name="testNoWorkPeriods" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.001"/>
+  <testcase name="testNoOverlapEventFirst" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.001"/>
+  <testcase name="testSimultaneousStartPeriodLonger" classname="com.wbl.datestest.EventPeriodCombinerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

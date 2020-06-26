@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+    id 'findbugs'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+ext {
+    checkstyleVersion = '6.16.1'
+    findbugsVersion = '3.0.1'
+}
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.threeten', name: 'threeten-extra', version: '1.5.0'
+
+}
+checkstyle {
+    toolVersion = checkstyleVersion
+    config = rootProject.resources.text.fromFile('config/checkstyle/checkstyle.xml')
+    ignoreFailures = false
+}
+
+findbugs {
+    ignoreFailures = true
+    toolVersion = findbugsVersion
+    excludeFilter = file("config/findbugs/excludeFilter.xml")
+    reportsDir = file("$project.buildDir/reports/findbugs")
+    effort = "max"
+}
+
+
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled false
+        html.enabled true
+
+    }
+}
